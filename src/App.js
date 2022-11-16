@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./components/header";
 import Nav from "./components/nav";
 import Forms from "./components/main";
-import '/Users/tofikhidayat/Documents/reactNew/latihan/src/app.css'
+import './app.css';
 
 function App() {
   const askName = () => {
