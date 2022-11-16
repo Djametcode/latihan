@@ -1,6 +1,6 @@
 import { useState } from "react";
 const Nav = () => {
-    const [produk, setProduk] = useState([
+    const [produk] = useState([
         {id: 1, title: 'Indomie', value: 100},
         {id: 2, title: 'Mie Gelas', value: 100},
         {id: 3, title: 'RTX 4090', value: 100},

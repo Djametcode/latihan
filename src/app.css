@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Sono&display=swap');
+* {
+    margin: 0;
+}
+Header {
+    animation: header linear infinite 1s;
+}
+@keyframes header {
+    0% {background-color: slategrey;}
+    50% {background-color: aqua;}
+    100% {background-color: brown;}
+}
+.container-css {
+    background-color: black;
+    color: white;
+    height: 200vh;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+li {
+    list-style-type: none;
+    background-color: slategray;
+}
+.flex-top {
+    background-color: slategray;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    border-radius: 30px;
+}

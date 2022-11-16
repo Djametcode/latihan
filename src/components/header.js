@@ -6,7 +6,7 @@ const Header = () => {
         setTitle('Djamet coder')
     }
     return (
-        <div>
+        <div id="header">
             <h1>Hallo selamat datang di {title}</h1>
             <button onClick={changeTitle}>Ganti judul</button>
         </div>

@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "./components/header";
 import Nav from "./components/nav";
+import Forms from "./components/main";
+import '/Users/tofikhidayat/Documents/reactNew/latihan/src/app.css'
 
 function App() {
   const askName = () => {
@@ -13,12 +15,17 @@ function App() {
     console.log('clicked');
   }
   return (
-    <div>
-      <Header />
-      <Nav />
-      <button onClick={() => {clickMe('Tofik')}}>Tekan saya</button>
-      <button onClick={askName}>Tekan saya selanjutnya</button>
-    </div>
+    <>
+      <div className="container-css">
+        <div className="flex-top">
+          <Header />
+          <Nav className="nav-css" />
+        </div>
+        <button onClick={() => {clickMe('Tofik')}}>Tekan saya</button>
+        <button onClick={askName}>Tekan saya selanjutnya</button>
+      </div>
+        <Forms />
+    </>
   )
 }
 
